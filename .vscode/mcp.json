@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--browser",
+        "chrome",
+        "--headless",
+        "--executable-path",
+        "/usr/bin/google-chrome-stable"
+      ]
+    }
+  }
+}
